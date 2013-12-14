@@ -5,6 +5,7 @@ Miscellaneous collection of scripts and tools for managing a Starbound server.
 
 Upcoming changes:
   1. Show users connected I.P. Address next to their name.
+    
     1a. Show time users connected.  
   2. Implement ability to ban I.P. Addresses (Users) through use of windows firewall rules. 
     

@@ -38,19 +38,21 @@ def main():
                 if len(status) > 1:
                     status = ""
             # Now we can detect carets as connection messages
-                status = line.split('<User: ')
+                status = line.split("Client '")
                 if len(status) > 1:
                 # Strip new lines and ending carets
                     status = status[1].replace("\n", "")
                 # Detect client number and set their status
                 # if status.split(" ")[1] == "<User:":
-                    if len(status.split("> ")) > 1:
-                        clients[status.split("> ")[0]] = status.split("> ")[1]
+                    if len(status.split(") ")) > 1:
+                        clients[status.split(") ")[0]] = status.split(") ")[1]
 
-        # Clean reaped players from dictionary
+        # Clean reaped/disconnected players from dictionary
         for player, status in clients.items():
-        # Player's connection has been reaped, keyword connection
+        # Player's connection has been reaped or disconnected, keyword connection
             if status == 'connection':
+                del clients[player]
+            if status == 'disconnected':
                 del clients[player]
         # Prints Total number of connected players to file (players.txt) & the screen
         PlayerLog = open("players.txt", "a")
@@ -62,8 +64,8 @@ def main():
         # Prints List of connected players to file (players.txt) & the screen
         for player, status in clients.iteritems():
             PlayerLog = open("players.txt", "a")
-            print "[client %s = %s]" % (player, status)
-            Endline = "[client %s = %s] \n" % (player, status)
+            print "%s - User: '%s)" % (status, player)
+            Endline = "%s - User: '%s) \n" % (status, player)
             PlayerLog.seek(0, 2)
             line= PlayerLog.write( Endline )
             PlayerLog.close

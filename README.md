@@ -14,6 +14,8 @@ Upcoming Features:
   * 3. Develop Graphical User Interface for ease of use.
   * 4. (Complete) xChat Log
   * 5. Config file for easy user entry of starbound install path.
+  * 6. Proper automatic server crash detection and restart.
+  * 7. One-Click universe backup and restoration / Pre-set backup save time, eg. Last 10, 48hrs, etc.
 
 ![](http://i.imgur.com/u31W4IP.png)
   

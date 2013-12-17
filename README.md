@@ -5,7 +5,7 @@ Miscellaneous collection of scripts and tools for managing a Starbound server.
 
 **Current Starbound Build: Offended Koala**
 
-Upcoming changes:
+Upcoming Features:
 =================
   * 1. (Complete) xShow users connected I.P. Address next to their name.
     * 1a. Show time users connected.  

@@ -14,6 +14,8 @@ Upcoming Features:
   * 3. Develop Graphical User Interface for ease of use.
   * 4. (Complete) xChat Log
   * 5. Config file for easy user entry of starbound install path.
+
+![](http://i.imgur.com/u31W4IP.png)
   
 Requirements:
 =============

@@ -12,3 +12,4 @@ Upcoming changes:
     2a. Timed bans (Eg. 1 hr, 24 hrs, Permanently, etc.)
   3. Develop Graphical User Interface for ease of use.
   4. (Complete) xChat Log
+  5. Config file for easy user entry of starbound install path.

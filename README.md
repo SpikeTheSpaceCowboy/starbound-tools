@@ -51,6 +51,15 @@ Instructions:
    * Note: This script assumes the path to the starbound server log is:
            * "C:\Steam\Steamapps\common\Starbound"
 
-   * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png 
+   * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png
+
+**Server Error Check**
+
+* Download ServerErrorCheck.bat
+* Download ServerRestart.bat
+* Change the [Local Server IP] & [Filepath to ServerRestart.bat] in ServerErrorCheck.bat
+* Change [Filepath to Starbound Installation] in ServerRestart.bat
+* Run ServerErrorCheck.bat
+
 
 

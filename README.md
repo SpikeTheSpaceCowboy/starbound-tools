@@ -2,6 +2,7 @@ starbound-tools
 ===============
 
 Miscellaneous collection of scripts and tools for managing a Starbound server.
+
 **Current Starbound Build: Offended Koala**
 
 Upcoming changes:
@@ -29,12 +30,12 @@ Instructions:
 * Download Connected Users.bat
 * Run Connected Users.bat- Make sure to change the filepath in the .bat file to where you have saved the .py file.
 
-        * Note: This script assumes the path to the starbound server log is:
-            * "C:\Steam\Steamapps\common\Starbound"
+   * Note: This script assumes the path to the starbound server log is:
+    * "C:\Steam\Steamapps\common\Starbound"
 
-        * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png 
+   * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png 
         
-        * This will create a players.txt file, so you can keep a log of when players connected to your server.
+   * This will create a players.txt file, so you can keep a log of when players connected to your server.
 
 **Chat Log**
 
@@ -43,9 +44,9 @@ Instructions:
 * Download ChatLog.bat.
 * Run ChatLog.bat - Make sure to change the filepath in the .bat file to where you have saved the .py file.
 
-        * Note: This script assumes the path to the starbound server log is:
-            *"C:\Steam\Steamapps\common\Starbound"
+   * Note: This script assumes the path to the starbound server log is:
+    *"C:\Steam\Steamapps\common\Starbound"
 
-        * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png 
+   * If that is not the directory you have installed Starbound to, either move it there, or point to the correct directory by editing the .py file included in the archive. Edit this line: http://i.imgur.com/TCYTKXT.png 
 
 
